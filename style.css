@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    /* background-color: red; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+i {
+    cursor: pointer;
+}
+
+li:hover {
+    color: #1DB954;
+}
+
+.search {
+    margin-left: 462px;
+    font-size: large;
+    /* margin-top: 12px; */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 0px 12px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.brand {
+
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.brand img {
+
+    width: 40px;
+    padding: 0px 4px;
+}
+
+.container {
+    display: flex;
+
+    min-height: 75vh;
+
+    /* jaate kore bottom part niche sticky thake  */
+    background-color: black;
+    color: white;
+    width: 65%;
+    margin: 2px auto;
+    border-radius: 12px;
+    background: url('frank-septillion-Qrspubmx6kE-unsplash.jpg')no-repeat center center/cover;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+
+    background-color: #1DB954;
+    /* background-color: blueviolet; */
+
+    color: black;
+
+
+}
+
+.icons {
+    margin-top: 12px;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+#myprogressbar {
+    width: 160vh;
+    cursor: pointer;
+    color: #1DB954;
+
+}
+
+.songItem {
+    /* border: 2px solid red; */
+    display: flex;
+    height: 50px;
+    background-color: white;
+    color: black;
+    width: 450px;
+    margin: 12px 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+}
+
+.songItem img {
+    width: 60px;
+    margin: 0px 13px;
+    border-radius: 23px;
+
+}
+
+.songlist h1 {
+    margin-left: 12px;
+    margin-top: 6px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.timespan {
+    padding: 0px 20px;
+}
+
+.songitemcontainer {
+    margin-top: 34px;
+    /* width: 450px; */
+}
+
+.songinfo {
+    position: absolute;
+    left: 12vw;
+    top: 7vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.songinfo img {
+
+    margin: 0px 7px;
+    height: 31px;
+    opacity: 0;
+    transition: opacity 0.8s ease-in;
+
+}
